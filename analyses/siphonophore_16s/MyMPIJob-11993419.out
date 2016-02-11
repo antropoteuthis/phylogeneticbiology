@@ -1,0 +1,16 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11993419
+##  Job Name : MyMPIJob
+##  Nodelist : node173
+##      CPUs : 8
+##   Mem/CPU : 2800 MB
+## Directory : /gpfs/scratch/guest310/phylogeneticbiology/analyses/siphonophore_16s
+##   Started : jue feb 11 14:05:39 EST 2016
+###############################################################################
+module: unloading 'raxml/8.0.22'
+module: loading 'raxml/8.0.22'
+
+This is RAxML MPI Process Number: 0
+RAxML output files with the run ID <boot100> already exist 
+in directory /gpfs/scratch/guest310/phylogeneticbiology/analyses/siphonophore_16s/ ...... exiting
+srun: error: node173: task 0: Exited with exit code 255
